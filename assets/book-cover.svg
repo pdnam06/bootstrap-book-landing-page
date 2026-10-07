@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="620" viewBox="0 0 460 620">
+<rect width="460" height="620" rx="5" fill="#214c3e"/><rect x="12" width="8" height="620" fill="#173c31"/><rect x="38" y="28" width="390" height="562" rx="2" fill="none" stroke="#b1c4a7" stroke-opacity=".4"/>
+<text x="68" y="79" fill="#d9e6cc" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">SỐNG CHẬM · NGHĨ SÂU</text>
+<text x="65" y="169" fill="#fff7e7" font-family="Georgia,serif" font-size="48" font-weight="bold">Bắt đầu</text><text x="65" y="230" fill="#fff7e7" font-family="Georgia,serif" font-size="48" font-weight="bold">từ điều nhỏ</text>
+<text x="68" y="281" fill="#d9e6cc" font-family="Arial,sans-serif" font-size="15">Một hành trình trở về với chính mình</text>
+<circle cx="300" cy="407" r="87" fill="#e6a26b"/><path d="M111 510 Q235 403 344 342" fill="none" stroke="#fff7e7" stroke-width="3"/>
+<path d="M182 452 Q115 425 149 381 Q201 387 182 452 M224 419 Q199 352 249 335 Q281 374 224 419 M263 390 Q270 324 321 328 Q324 373 263 390 M158 473 Q187 504 222 469 Q197 443 158 473 M211 432 Q251 470 283 424 Q254 404 211 432" fill="#adc4a1"/>
+<text x="68" y="555" fill="#fff7e7" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">MINH AN</text><text x="391" y="556" fill="#d9e6cc" font-family="Georgia,serif" font-size="22">m.</text>
+</svg>

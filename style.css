@@ -1,0 +1,91 @@
+:root { --ink: #213f35; --muted: #68766d; --cream: #faf8f2; --warm: #efe9dc; --accent: #bc543c; --line: #dedfd4; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { color: var(--ink); background: var(--cream); font-family: Arial, sans-serif; line-height: 1.75; }
+h1, h2, h3 { color: var(--ink); font-family: Georgia, 'Times New Roman', serif; line-height: 1.15; }
+h2 { font-size: clamp(32px, 3.4vw, 45px); margin-bottom: 22px; }
+h3 { font-size: 25px; margin-bottom: 16px; }
+p { color: var(--muted); }
+a { color: var(--ink); }
+section { scroll-margin-top: 30px; }
+.container { max-width: 1160px; padding-left: 24px; padding-right: 24px; }
+.section-pad { padding: 88px 0; }
+.eyebrow { font-size: 11px; font-weight: bold; letter-spacing: 2px; color: var(--accent); margin-bottom: 22px; }
+.section-lead { font-size: 18px; line-height: 1.75; }
+.section-heading { max-width: 650px; }
+.section-heading p:last-child { margin-bottom: 0; }
+.skip-link { position: absolute; top: -80px; left: 12px; z-index: 1100; padding: 10px; background: white; }
+.skip-link:focus { top: 12px; }
+.navbar { padding: 22px 0; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; gap: 12px; align-items: center; color: var(--ink); text-decoration: none; font-family: Georgia, serif; font-size: 23px; font-weight: bold; }
+.brand-mark { display: inline-grid; place-items: center; width: 40px; height: 40px; background: var(--ink); color: var(--cream); border-radius: 50%; font-size: 26px; }
+.nav-link { font-size: 13px; color: var(--muted); padding: 10px 8px; }
+.nav-link:hover, .nav-link:focus-visible { color: var(--accent); }
+.btn { border-radius: 6px; padding: 11px 20px; font-size: 14px; font-weight: bold; line-height: 1.5; }
+.btn-lg { padding: 15px 23px; font-size: 15px; }
+.btn-primary { --bs-btn-bg: var(--accent); --bs-btn-border-color: var(--accent); --bs-btn-hover-bg: #9e422f; --bs-btn-hover-border-color: #9e422f; --bs-btn-active-bg: #8a3828; --bs-btn-active-border-color: #8a3828; --bs-btn-focus-shadow-rgb: 188,84,60; }
+.btn-outline-dark { --bs-btn-color: var(--ink); --bs-btn-border-color: #bec6ba; --bs-btn-hover-bg: var(--ink); --bs-btn-hover-border-color: var(--ink); }
+.hero { padding: 68px 0 58px; }
+h1 { font-size: clamp(48px, 5.5vw, 73px); letter-spacing: -2px; margin-bottom: 26px; }
+h1 em { font-weight: normal; color: var(--accent); }
+.hero-description { max-width: 510px; font-size: 17px; }
+.hero-note { display: flex; align-items: center; gap: 12px; margin-top: 35px; color: var(--muted); font-size: 11px; }
+.little-line { width: 26px; height: 1px; background: var(--accent); flex-shrink: 0; }
+.book-scene { position: relative; display: flex; align-items: center; justify-content: center; height: 510px; }
+.scene-circle { position: absolute; width: 430px; max-width: 100%; aspect-ratio: 1; border-radius: 50%; background: #ece7d9; }
+.book-cover { position: relative; width: 310px; max-width: 72%; height: auto; transform: rotate(-8deg); box-shadow: 14px 25px 30px #183e332a; }
+.book-label { position: absolute; bottom: 40px; right: 0; display: flex; align-items: center; gap: 13px; padding: 15px 22px; background: white; box-shadow: 0 8px 30px #213f3512; border-radius: 8px; font-size: 12px; line-height: 1.7; }
+.book-label > span { color: var(--accent); font-size: 29px; }
+.intro-strip { padding: 23px 0; background: var(--ink); color: #e8ecde; font-size: 12px; letter-spacing: .5px; }
+.book-fact { border-top: 1px solid var(--line); padding-top: 20px; }
+.book-fact strong { display: block; font: 36px Georgia, serif; }
+.book-fact span { font-size: 12px; color: var(--muted); }
+.text-button { border: 0; background: transparent; padding: 0; color: var(--accent); font-size: 14px; font-weight: bold; text-align: left; }
+.text-button:hover { text-decoration: underline; }
+.author-section { background: #f0f2e9; }
+.author-picture { border-radius: 18px; max-height: 480px; width: 100%; object-fit: contain; }
+.author-quote { border-left: 2px solid var(--accent); padding-left: 20px; margin: 28px 0 15px; font-family: Georgia, serif; font-size: 21px; font-style: italic; }
+.signature { font-family: Georgia, serif; font-style: italic; font-size: 29px; }
+.feature-card { padding: 30px; border: 1px solid var(--line); border-radius: 12px; background: #fffdf8; transition: transform .2s, box-shadow .2s; }
+.feature-card:hover { transform: translateY(-5px); box-shadow: 0 12px 26px #213f350b; }
+.feature-icon { display: inline-grid; place-items: center; width: 50px; height: 50px; border-radius: 50%; color: var(--accent); background: #f7e8df; margin-bottom: 26px; font: 21px Georgia, serif; }
+.feature-card p { font-size: 14px; margin-bottom: 0; }
+.prices-section { background: #f1eee5; }
+.price-card { position: relative; padding: 37px 26px 30px; border: 1px solid #dedacf; border-radius: 12px; background: var(--cream); }
+.price-type { font-size: 9px; font-weight: bold; letter-spacing: 1px; }
+.price { font: bold clamp(28px, 3vw, 42px) Georgia, serif; color: var(--ink); margin: 23px 0 28px; }
+.price span { font: 16px Arial, sans-serif; margin-left: 4px; }
+.price-card li { font-size: 12px; margin-bottom: 12px; }
+.price-card ul { margin-bottom: 27px; }
+.highlighted { background: var(--ink); border-color: var(--ink); }
+.highlighted h3, .highlighted .price, .highlighted li { color: var(--cream); }
+.highlighted .price-type { color: #c3cfbe; }
+.price-badge { position: absolute; top: -12px; left: 15px; right: 15px; text-align: center; font-size: 8px; letter-spacing: .6px; font-weight: bold; padding: 5px 8px; background: #ddd8ba; color: var(--ink); border-radius: 4px; }
+.download-panel { background: #ecebdc; border: 1px solid #dbdccb; border-radius: 18px; padding: 50px; }
+.download-panel h2 { margin-bottom: 15px; }
+.download-detail { font-size: 11px; color: var(--muted); }
+.readers-section { padding-top: 15px; }
+.reader-card { background: #fffdf8; border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 0; display: flex; flex-direction: column; }
+.stars { color: #bd8b39; letter-spacing: 3px; font-size: 13px; }
+.reader-card blockquote { margin: 22px 0 30px; color: var(--ink); font: 18px/1.7 Georgia, serif; }
+.reader-card figcaption { display: flex; align-items: center; gap: 12px; margin-top: auto; }
+.reader-avatar { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: #e6eade; color: var(--ink); font-size: 11px; flex-shrink: 0; }
+.reader-card strong { display: block; font-size: 12px; }
+.reader-card small { display: block; font-size: 10px; color: var(--muted); }
+#footer { background: var(--ink); color: #f2f1e6; padding: 56px 0 22px; }
+.footer-brand { color: #f2f1e6; }
+.footer-brand .brand-mark { color: var(--ink); background: #f2f1e6; }
+#footer p, #footer a { color: #d4dbcc; font-size: 13px; }
+#footer a.brand { color: #f2f1e6; font-size: 23px; }
+.footer-heading { font: bold 13px Arial, sans-serif; color: #f2f1e6; margin-top: 12px; margin-bottom: 20px; }
+#footer li { margin-bottom: 10px; }
+#footer li a { text-decoration: none; }
+#footer li a:hover { text-decoration: underline; }
+.footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; border-top: 1px solid #ffffff20; margin-top: 35px; padding-top: 20px; font-size: 10px; color: #b7c7b9; }
+.modal-content { background: var(--cream); border-radius: 14px; }
+.modal-body { padding: 25px; }
+:focus-visible { outline: 3px solid #bc543c; outline-offset: 4px; }
+@media (max-width: 991.98px) { .navbar-collapse { padding-top: 20px; } .nav-link { padding: 12px 0; } .hero { padding-top: 45px; } .hero-copy { max-width: 700px; } .book-scene { height: 440px; } .book-cover { width: 285px; } .book-label { right: 15%; } }
+@media (max-width: 767.98px) { .container { padding-left: 24px; padding-right: 24px; } .section-pad { padding: 58px 0; } .book-label { right: 4px; bottom: 24px; } .intro-strip { padding: 22px; } .author-picture { max-height: 390px; } .download-panel { padding: 30px 24px; } .reader-card { padding: 25px; } .readers-section { padding-top: 0; } .price-card { padding: 35px 26px 28px; } .price { font-size: 39px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .feature-card { transition: none; } }
+

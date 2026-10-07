@@ -1,0 +1,11 @@
+PASS 1440px: all eight sections, internal links and images; no horizontal overflow
+PASS 1024px: all eight sections, internal links and images; no horizontal overflow
+PASS 992px: all eight sections, internal links and images; no horizontal overflow
+PASS 991px: all eight sections, internal links and images; no horizontal overflow
+PASS 768px: all eight sections, internal links and images; no horizontal overflow
+PASS 767px: all eight sections, internal links and images; no horizontal overflow
+PASS 390px: all eight sections, internal links and images; no horizontal overflow
+PASS 320px: all eight sections, internal links and images; no horizontal overflow
+PASS mobile menu: open/close, automatic close even during opening
+PASS excerpt modal: open and Escape close
+PASS real UTF-8 sample download
